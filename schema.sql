@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict sb71i7fThGzfEYXItWw57QgiAerdIxaYBb3XG78543yZbhaBUNmGcMcdN6hBVz1
+\restrict Hxzho85AWhpQhu8iKpChd1DUpoSpnZE9Var4JhpeOdn4f9ZsaRhXsgq5R61G0Ca
 
 -- Dumped from database version 15.14 (Debian 15.14-1.pgdg13+1)
 -- Dumped by pg_dump version 15.14 (Debian 15.14-1.pgdg13+1)
@@ -71,7 +71,7 @@ CREATE TABLE public.orders (
     product_location character varying(255) NOT NULL,
     volume double precision NOT NULL,
     weight double precision NOT NULL,
-    price integer,
+    price bigint,
     "createdAt" timestamp with time zone NOT NULL,
     "updatedAt" timestamp with time zone NOT NULL,
     "userId" integer,
@@ -433,5 +433,5 @@ ALTER TABLE ONLY public.services
 -- PostgreSQL database dump complete
 --
 
-\unrestrict sb71i7fThGzfEYXItWw57QgiAerdIxaYBb3XG78543yZbhaBUNmGcMcdN6hBVz1
+\unrestrict Hxzho85AWhpQhu8iKpChd1DUpoSpnZE9Var4JhpeOdn4f9ZsaRhXsgq5R61G0Ca
 
